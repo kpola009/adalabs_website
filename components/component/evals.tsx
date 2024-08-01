@@ -20,6 +20,10 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible"
 
+import React from 'react';
+
+interface IconProps extends React.SVGProps<SVGSVGElement> {}
+
 export function Evals() {
   return (
     <div className="flex flex-col min-h-dvh">
@@ -425,7 +429,7 @@ export function Evals() {
   )
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -445,7 +449,7 @@ function MountainIcon(props) {
 }
 
 
-function XIcon(props) {
+function XIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -464,3 +468,5 @@ function XIcon(props) {
     </svg>
   )
 }
+
+export { MountainIcon, XIcon };
