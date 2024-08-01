@@ -49,12 +49,12 @@ export function Evals() {
       </header>
       <main className="flex-1">
         <section>
-          <div className="px-4 md:px-6 space-y-8 xl:space-y-12">
+          <div className="px-4 md:px-6 space-y-8 xl:space-y-12 pb-8">
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 pt-8 md:pt-16 lg:pt-20 pb-8">
               <div>
                 <img
-                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full mb-4"
-                  src="/placeholder.svg"
+                  className="mx-auto overflow-hidden rounded-xl object-cover object-center sm:w-1/2 mb-4"
+                  src="/1_(2).png"
                 />
               </div>
               <div className="space-y-4">
@@ -175,7 +175,7 @@ export function Evals() {
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <div>
                 <img
-                  src="/placeholder.svg"
+                  src="public/1_(6).png"
                   width="300"
                   height="169"
                   alt="Adalabs Solutions"
