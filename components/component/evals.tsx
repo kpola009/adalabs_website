@@ -18,6 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link"
+import Image from "next/image"
 import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible"
 
 import React from 'react';
@@ -29,7 +30,7 @@ export function Evals() {
     <div className="flex flex-col min-h-dvh">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <MountainIcon className="size-6" />
+          <Image src="/nav_bar_logo_black.png" width={170} height={170} alt="Adalabs" />
           <span className="sr-only">Adalabs</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
@@ -80,7 +81,7 @@ export function Evals() {
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <div>
                 <img
-                  src="/placeholder.svg"
+                  src="/meet_adalabs.webp"
                   width="300"
                   height="169"
                   alt="Meet Adalabs"
@@ -175,7 +176,7 @@ export function Evals() {
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <div>
                 <img
-                  src="public/1_(6).png"
+                  src="/adalabs_solutions.webp"
                   width="300"
                   height="169"
                   alt="Adalabs Solutions"
@@ -297,7 +298,7 @@ export function Evals() {
               </div>
               <div>
                 <img
-                  src="/placeholder.svg"
+                  src="/adalans_solutions_2.webp"
                   width="300"
                   height="169"
                   alt="Adalabs Solutions"
@@ -311,7 +312,7 @@ export function Evals() {
           <div className="container grid grid-cols-1 gap-8 px-4 md:px-6 lg:grid-cols-2">
             <div className="flex items-center justify-center">
               <img
-                src="/placeholder.svg"
+                src="/adalabs_insights.webp"
                 alt="Adalabs Insights"
                 width={600}
                 height={400}
