@@ -31,6 +31,14 @@
     --chart-5: 27 87% 67%;
   }
 
+  .full-height-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
   .dark {
     --background: 224 71.4% 4.1%;
     --foreground: 210 20% 98%;
